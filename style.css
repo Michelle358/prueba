@@ -1,0 +1,21 @@
+h1{
+    text-decoration: overline;
+    background-color: aquamarine;
+}
+
+.listaOrd{
+    background-color: blueviolet;
+}
+
+#nombre{
+    background-color: blue;
+}
+
+p:hover{
+    background-color: rgb(103, 87, 119);
+}
+
+.listaOrd::after {
+    content: "->";
+    background-color: rgb(239, 239, 239);
+}
